@@ -1,0 +1,124 @@
+/* Here goes your CSS */
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 35px auto;
+    padding: 50px;
+    background-image: url(images/background5.jpg)
+    }
+
+h1, h2, h3  {
+    color: rgba(100, 191, 104, 0.77);
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: 'Shadows Into Light', cursive;
+    }
+
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 10px auto;
+    }
+
+a {
+  color: #61d8f9 ;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue ;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+ul {
+ padding: inherit;
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+
+tr {
+  border: 10px solid;
+}
+
+
+.img_movies{
+    width: 150px;
+  height: 150px;
+  border-radius: 20%;
+}
+
+
+#profile_picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid,
+  border-radius: 10%;
+  box-shadow: 1px 1px 10px pink;
+  margin: 30px;
+}
+
+.card h3 {
+  text-align:center;
+}
+
+.card p {
+  text-align:center;
+}
+
+#presentation {
+  text-align: center;
+  margin: 30px;
+  padding: 35px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto; /* Automatically set left/right margins*/
+}
+
+.underline {
+  border-bottom: 1px solid;
+}
+
+.btn-guigui {
+  background: rgb(29, 161, 242);
+  border-radius: 5px;
+  box-shadow: 2 2 2 white;
+  padding: 10px;
+
+}
+
+.btn-guigui:hover {
+  color: pink
+}
+
+.social-logo {
+  display: inline-block;
+  padding: 50px ;
+}
+
+.text-allume:hover {
+ color:red;
+}
